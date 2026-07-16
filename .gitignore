@@ -1,0 +1,17 @@
+# Datos personales — nunca deben subirse a este repositorio público
+# (protección adicional por si clonas esto dentro de tu vault real)
+
+09 Gestión Laboral/Perfil/
+09 Gestión Laboral/Postulaciones/
+Perfil/
+Postulaciones/
+
+# Archivos de configuración con secretos
+.env
+*.env
+.hermes/
+
+# Archivos de sistema y editor
+.DS_Store
+.obsidian/workspace*
+*.swp
