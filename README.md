@@ -6,7 +6,7 @@ Este proyecto nace de mi propio proceso de búsqueda laboral y de mi aprendizaje
 
 ## ¿Qué hace?
 
-- Recibe el texto de una oferta laboral
+- Recibe el texto de una oferta laboral y la url. 
 - La analiza en profundidad: tipo de empresa real, rol real (no el título), requisitos explícitos vs. implícitos, riesgos ocultos, evaluación numérica de fit (1–7), estimación salarial de mercado
 - Genera un documento Markdown estructurado en tu vault, listo para consultar durante todo el proceso de postulación
 - Permite agregar notas de seguimiento (entrevistas, cambios de estado) a postulaciones existentes
