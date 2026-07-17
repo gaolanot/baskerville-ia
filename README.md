@@ -1,25 +1,28 @@
-# 🧭 Asistente de Búsqueda Laboral (AGENTS.md + SOUL.md)
+# 🐕 Baskerville — Asistente de Búsqueda Laboral con IA
 
 Un sistema de agentes de IA, pensado para correr sobre [Hermes Agent](https://github.com/) y un vault de [Obsidian](https://obsidian.md/), que analiza ofertas laborales con una visión crítica de mentor de carrera y genera documentación estructurada de cada postulación.
+
+> *En "El sabueso de los Baskerville", Holmes no se deja engañar por la leyenda — investiga hasta encontrar la verdad detrás del mito. Baskerville hace lo mismo con las ofertas laborales: separa el discurso de marketing de lo que realmente implica el rol, antes de que inviertas tiempo postulando.*
 
 Este proyecto nace de mi propio proceso de búsqueda laboral y de mi aprendizaje experimentando con agentes de IA, prompts estructurados y flujos multi-agente. Lo comparto como aporte a la comunidad y como evidencia de ese aprendizaje — siéntete libre de usarlo, adaptarlo y mejorarlo.
 
 ## ¿Qué hace?
 
-- Recibe el texto de una oferta laboral y la url. 
+- Recibe el texto de una oferta laboral
 - La analiza en profundidad: tipo de empresa real, rol real (no el título), requisitos explícitos vs. implícitos, riesgos ocultos, evaluación numérica de fit (1–7), estimación salarial de mercado
 - Genera un documento Markdown estructurado en tu vault, listo para consultar durante todo el proceso de postulación
 - Permite agregar notas de seguimiento (entrevistas, cambios de estado) a postulaciones existentes
 
-## Arquitectura: tres agentes, un solo sistema
+## Arquitectura: cuatro agentes, un solo sabueso
 
 | Agente | Rol |
 |---|---|
+| 🔎 **Filtro** | Descarta rápido las ofertas que no cumplen tus criterios mínimos, antes de gastar análisis completo |
 | 🧠 **Analista** | Razona críticamente sobre la oferta, cuestiona supuestos, evalúa fit |
 | 📝 **Documentador** | Vuelca el análisis aprobado en la plantilla, sin reinterpretar |
 | 🗂️ **Bitácora** | Gestiona notas de actualización sobre postulaciones existentes |
 
-`AGENTS.md` controla el flujo (cuándo se activa cada agente). `SOUL.md` define quién es cada agente y cómo razona.
+`AGENTS.md` controla el flujo (cuándo se activa cada agente). `SOUL.md` define quién es cada agente y cómo razona — juntos conforman a Baskerville.
 
 ## Requisitos
 
@@ -35,17 +38,23 @@ Este proyecto nace de mi propio proceso de búsqueda laboral y de mi aprendizaje
    ```
    VAULT_ROOT: /ruta/a/tu/vault
    ```
-4. Crea la siguiente estructura de carpetas dentro de tu vault:
+4. Crea la siguiente estructura de carpetas y archivos dentro de tu vault:
    ```
    09 Gestión Laboral/
    ├── Perfil/
-   └── Postulaciones/
+   ├──|── Criterios de Evaluación.md
+   ├──|── Curriculum.md
+   ├── Postulaciones/
+   └──|── Registro Rápido.md
    99 Templates/
+   ├── Plantilla Curriculm.md
    └── Plantilla Postulación Laboral.md
+   Scritps
+   └── sync-from-vault.sh
+   AGENTS.md
+   SOUL.md
    ```
-5. Copia `plantillas/Plantilla Postulación Laboral.md` a `99 Templates/` dentro de tu vault.
-6. Copia `plantillas/Criterios de Evaluación.md` a `09 Gestión Laboral/Perfil/` y complétalo con tu propio contexto profesional (ver siguiente sección).
-7. Agrega también a `09 Gestión Laboral/Perfil/` tu CV o resumen de trayectoria, y cualquier otra nota de estrategia de carrera que quieras que el sistema considere.
+5. Agrega también a `09 Gestión Laboral/Perfil/` tu CV o resumen de trayectoria, y cualquier otra nota de estrategia de carrera que quieras que el sistema considere.
 
 ## Configura tu perfil antes de usarlo
 
@@ -80,4 +89,4 @@ Este proyecto se comparte bajo licencia MIT (ver `LICENSE`) — úsalo, modifíc
 
 ## Aviso
 
-Este es un proyecto personal de aprendizaje, no un producto soportado. No hay garantía de que el análisis generado sea 100% preciso — es una herramienta de apoyo al pensamiento crítico, no un reemplazo del juicio propio.
+Baskerville es un proyecto personal de aprendizaje, no un producto soportado. No hay garantía de que el análisis generado sea 100% preciso — es una herramienta de apoyo al pensamiento crítico, no un reemplazo del juicio propio.

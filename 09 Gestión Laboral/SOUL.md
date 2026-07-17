@@ -1,4 +1,4 @@
-# SOUL — Personas del sistema
+# SOUL — Personas de Baskerville-IA
 
 Este archivo define QUIÉN es cada agente y CÓMO razona. El flujo (cuándo se activa cada uno) vive en AGENTS.md.
 
