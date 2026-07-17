@@ -96,6 +96,10 @@ Este sistema fue diseñado pensando en el mercado laboral de Chile/LATAM y en un
 
 Este proyecto se comparte bajo licencia MIT (ver `LICENSE`) — úsalo, modifícalo y compártelo libremente, con atribución apreciada pero no exigida.
 
+## Historial de cambios
+
+Ver CHANGELOG.md para el registro completo de versiones y cambios del proyecto.
+
 ## Aviso
 
 Baskerville es un proyecto personal de aprendizaje, no un producto soportado. No hay garantía de que el análisis generado sea 100% preciso — es una herramienta de apoyo al pensamiento crítico, no un reemplazo del juicio propio.
