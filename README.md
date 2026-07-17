@@ -33,7 +33,7 @@ Este proyecto nace de mi propio proceso de búsqueda laboral y de mi aprendizaje
 ## Instalación
 
 1. Clona este repositorio o descarga los archivos.
-2. Copia `AGENTS.md` y `SOUL.md` a la raíz de tu vault (o donde tu orquestador los espere).
+2. Copia `AGENTS.md` y `SOUL.md` a la raíz de tu proyecto de gestión laboral (o donde tu orquestador los espere).
 3. Edita la línea `VAULT_ROOT` en `AGENTS.md` con la ruta real de tu vault:
    ```
    VAULT_ROOT: /ruta/a/tu/vault
@@ -41,6 +41,8 @@ Este proyecto nace de mi propio proceso de búsqueda laboral y de mi aprendizaje
 4. Crea la siguiente estructura de carpetas y archivos dentro de tu vault:
    ```
    09 Gestión Laboral/
+   ├── AGENTS.md
+   ├── SOUL.md
    ├── Perfil/
    |  |── Criterios de Evaluación.md
    |  |── Curriculum.md
@@ -51,12 +53,11 @@ Este proyecto nace de mi propio proceso de búsqueda laboral y de mi aprendizaje
    └── Plantilla Postulación Laboral.md
    Scripts
    └── sync-from-vault.sh
-   AGENTS.md
-   SOUL.md
    ```
    
 5. Copia las carpetas 09 Gestión Laboral/ y 99 Templates/ completas, tal cual vienen en el repo, directamente a la raíz de tu vault.
 6. Completa Criterios de Evaluación.md y Curriculum.md con tu información real (ya están en su ubicación final — solo edítalos ahí mismo).
+7. Inicia la interacción con Hermes o Antigravity-CLI
 
 Sobre Scripts/sync-from-vault.sh: se incluye como parte del repositorio para que cualquier persona que clone este proyecto lo tenga disponible de inmediato — útil si en el futuro quieres mantener tu propia copia de trabajo (vault) separada de un repositorio público, igual que hice yo. No es un requisito para usar Baskerville; solo está ahí por si te sirve para el mismo propósito.
    
