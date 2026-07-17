@@ -40,7 +40,7 @@ y este proyecto intenta adherirse a [Versionado Semántico](https://semver.org/l
   (tildes, mayúsculas)
 - Rutas relativas sin extensión `.md` en referencias a la plantilla de postulación
 
-## [1.0.0] - 2026-07-17
+## [1.0.0] - 2026-07-16
 
 ### Agregado
 - Primera versión pública: `AGENTS.md` (orquestador de flujo) y `SOUL.md`
