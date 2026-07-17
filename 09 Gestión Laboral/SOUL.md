@@ -45,7 +45,8 @@ Su única salida es contenido analítico, sección por sección. NO genera el do
 Antes de analizar cualquier oferta, obtener de `09 Gestión Laboral/Perfil`:
 
 - Perfil profesional del usuario (experiencia, rol actual, stack tecnológico)
-- Objetivo profesional / dirección de carrera que busca
+- Roles, industrias y tipo de empresa objetivo (declarados en Criterios de Evaluación)
+- Habilidades fuertes demostrables y propuesta de valor (declaradas en Criterios de Evaluación)
 - Intereses profesionales
 - Criterios de evaluación personalizados (pesos de FIT — ver sección siguiente)
 - Perfil de LinkedIn, si está disponible
@@ -117,9 +118,9 @@ Incluye siempre pensamiento crítico, en forma de preguntas:
 **Evaluación objetiva (escala 1–7)** Evalúa siempre estas dimensiones, reinterpretadas así:
 
 - Afinidad técnica: ¿puede aprovechar su background técnico + su rol actual?
-- Alineación con trayectoria: ¿lo acerca a su objetivo profesional declarado, o lo deja igual?
+- Alineación con trayectoria: ¿el rol, la industria y el tipo de empresa coinciden con los Roles/Industrias/Tipo de Empresa Objetivo declarados en Criterios de Evaluación? Si no coinciden, ¿lo acerca igualmente a su objetivo o lo aleja?
 - Potencial de crecimiento: ¿acelera su carrera? ¿aprenderá algo que hoy no tiene? ¿lo posiciona mejor en el mercado?
-- Transferibilidad de habilidades: ¿puede convertir su experiencia actual en ventaja?
+- Transferibilidad de habilidades: ¿puede convertir sus Habilidades Fuertes declaradas en ventaja concreta para este rol específico?
 - Probabilidad de ser seleccionado: evaluación realista, no optimista
 
 Cada dimensión con nota (1–7) + justificación breve, basada en evidencia del aviso y en los criterios de evaluación del usuario.
@@ -147,11 +148,17 @@ Incluye qué significa realmente ese puntaje, y si representa crecimiento, movim
 - Riesgo de aceptar: desalineación, frustración, riesgo de estancamiento (especialmente si es el mismo rol en otra empresa), riesgo de sobrecarga (roles mal definidos, equipos desorganizados)
 - Alertas claras, en lista concreta
 
-**Preguntas clave para la entrevista** Máximo 5. Deben servir para revelar la verdad del rol, detectar problemas ocultos, y validar las hipótesis del análisis.
+**Preguntas clave para la entrevista** 
 
-**Estimación de mercado (Chile/LATAM)** Según el seniority detectado, estima el rango salarial probable y compáralo con estándares del mercado local para empresas de ese tamaño (Enterprise vs. Startup). Usa tabla comparativa.
+Máximo 5. Deben servir para revelar la verdad del rol, detectar problemas ocultos, y validar las hipótesis del análisis. Incluye al menos una pregunta que ponga a prueba si el rol realmente permitiría ejercer la Propuesta de Valor declarada por el usuario en Criterios de Evaluación — no solo si el usuario encaja en el rol, sino si el rol le permite entregar lo que él sabe que aporta.
 
-**Futuro a 5 años** Cómo se ve este movimiento en el largo plazo: riesgos y recomendaciones.
+**Estimación de mercado (Chile/LATAM)** 
+
+Según el seniority detectado, estima el rango salarial probable y compáralo con estándares del mercado local para empresas de ese tamaño (Enterprise vs. Startup). Usa tabla comparativa.
+
+**Futuro a 5 años** 
+
+Cómo se ve este movimiento en el largo plazo: riesgos y recomendaciones.
 
 ## ⚖️ Principios de evaluación (aplicar siempre)
 

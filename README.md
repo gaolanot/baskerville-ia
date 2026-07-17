@@ -8,8 +8,8 @@ Este proyecto nace de mi propio proceso de búsqueda laboral y de mi aprendizaje
 
 ## ¿Qué hace?
 
-- Recibe el texto de una oferta laboral
-- La analiza en profundidad: tipo de empresa real, rol real (no el título), requisitos explícitos vs. implícitos, riesgos ocultos, evaluación numérica de fit (1–7), estimación salarial de mercado
+- Un primer filtro rápido descarta en segundos las ofertas que no cumplen tus criterios mínimos (modalidad, salario, seniority, etc.), sin gastar el análisis completo en ellas
+- Si pasa el filtro, la analiza en profundidad: tipo de empresa real, rol real (no el título), requisitos explícitos vs. implícitos, riesgos ocultos, evaluación numérica de fit (1–7), estimación salarial de mercado
 - Genera un documento Markdown estructurado en tu vault, listo para consultar durante todo el proceso de postulación
 - Permite agregar notas de seguimiento (entrevistas, cambios de estado) a postulaciones existentes
 
@@ -42,39 +42,48 @@ Este proyecto nace de mi propio proceso de búsqueda laboral y de mi aprendizaje
    ```
    09 Gestión Laboral/
    ├── Perfil/
-   ├──|── Criterios de Evaluación.md
-   ├──|── Curriculum.md
-   ├── Postulaciones/
-   └──|── Registro Rápido.md
+   |  |── Criterios de Evaluación.md
+   |  |── Curriculum.md
+   └── Postulaciones/
+      └── Registro Rápido.md
    99 Templates/
-   ├── Plantilla Curriculm.md
+   ├── Plantilla Curriculum.md
    └── Plantilla Postulación Laboral.md
-   Scritps
+   Scripts
    └── sync-from-vault.sh
    AGENTS.md
    SOUL.md
    ```
-5. Agrega también a `09 Gestión Laboral/Perfil/` tu CV o resumen de trayectoria, y cualquier otra nota de estrategia de carrera que quieras que el sistema considere.
+   
+5. Copia las carpetas 09 Gestión Laboral/ y 99 Templates/ completas, tal cual vienen en el repo, directamente a la raíz de tu vault.
+6. Completa Criterios de Evaluación.md y Curriculum.md con tu información real (ya están en su ubicación final — solo edítalos ahí mismo).
 
+Sobre Scripts/sync-from-vault.sh: se incluye como parte del repositorio para que cualquier persona que clone este proyecto lo tenga disponible de inmediato — útil si en el futuro quieres mantener tu propia copia de trabajo (vault) separada de un repositorio público, igual que hice yo. No es un requisito para usar Baskerville; solo está ahí por si te sirve para el mismo propósito.
+   
 ## Configura tu perfil antes de usarlo
 
-El Agente Analista necesita contexto real tuyo para evaluar bien — sin esto, no debería (y no debe) emitir evaluaciones. Como mínimo necesitas en `09 Gestión Laboral/Perfil/`:
+El Agente Analista necesita contexto real tuyo para evaluar bien — sin esto, no debería (y no debe) emitir evaluaciones. Completa 09 Gestión Laboral/Perfil/Criterios de Evaluación.md con:
+- Filtro rápido de descarte — descalificadores objetivos y explícitos (modalidad, salario mínimo, seniority, industria/tecnología rechazada, tipo de contrato) que usa el 🔎 Agente Filtro para el triage inicial
+- Roles, Industrias y Tipo de Empresa Objetivo — hacia dónde quieres moverte, usado por el 🧠 Agente Analista para evaluar alineación con tu trayectoria
+- Habilidades Fuertes y Propuesta de Valor — lo que ya puedes demostrar, usado para evaluar transferibilidad y para generar preguntas de entrevista relevantes
+- Pesos de FIT, penalizaciones y bonificaciones — qué pondera más o menos en tu evaluación
 
-- **Criterios de Evaluación.md** — tus pesos de fit, penalizaciones y bonificaciones (plantilla incluida)
-- Tu **CV** o resumen de experiencia
+Además necesitas:
+- Tu CV o resumen de experiencia (Plantilla Curriculum.md incluida como base)
 - Opcional: notas de estrategia de carrera, formato STAR, perfil de LinkedIn
 
-Nada de esto se incluye en este repositorio — es información personal que cada usuario debe crear por su cuenta. El `.gitignore` incluido está preparado para evitar que la subas accidentalmente si trabajas dentro de una copia local de este repo.
+Nada de esto se incluye en este repositorio — es información personal que cada usuario debe crear por su cuenta. El .gitignore incluido está preparado para evitar que la subas accidentalmente si trabajas dentro de una copia local de este repo.
 
 ## Uso
 
 1. Inicia una conversación con tu orquestador (Hermes u otro).
 2. El sistema pregunta si la oferta es nueva o existente.
-3. Para una oferta nueva: pega el texto de la oferta y el enlace cuando se te pida. El Agente Analista generará un borrador de análisis.
-4. Revisa y aprueba (o corrige) el análisis.
+3. Para una oferta nueva: pega el texto de la oferta y el enlace cuando se te pida. El 🔎 Agente Filtro la revisa primero — si no pasa, confirmas si la descartas o quieres análisis completo igual.
+4. Si pasa el filtro (o insistes), el 🧠 Agente Analista genera un borrador de análisis.
+5. Revisa y aprueba (o corrige) el análisis.
 5. El Agente Documentador genera el archivo final en `09 Gestión Laboral/Postulaciones/`.
 6. Para actualizaciones futuras (entrevistas, cambios de estado), vuelve a iniciar y elige "oferta existente".
-
+ 
 ## Personalización
 
 Este sistema fue diseñado pensando en el mercado laboral de Chile/LATAM y en una transición de carrera hacia roles de Product Owner/Product Manager/Gestión de TI — pero está pensado para adaptarse:
