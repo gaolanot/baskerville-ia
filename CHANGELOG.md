@@ -5,6 +5,14 @@ Todos los cambios notables de este proyecto se documentan en este archivo.
 El formato sigue [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/),
 y este proyecto intenta adherirse a [Versionado Semántico](https://semver.org/lang/es/).
 
+## [1.1.1] - 2026-07-20
+- Se agrega al SOUL instrucciones para extraer keyworkds útiles en la postulación
+### Cambiado
+- Se modifica la plantilla de Curriculum para que sea más adecuada para ATS y se 
+  agregan ejemplos que hagan más claro como llenar los datos.
+- Se modifica el archivo Curriculum Vitae.md en Perfil/ para que sea coherente con 
+  la plantilla
+
 ## [1.1.0] - 2026-07-17
 
 ### Agregado

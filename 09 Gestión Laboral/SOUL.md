@@ -160,6 +160,12 @@ Según el seniority detectado, estima el rango salarial probable y compáralo co
 
 Cómo se ve este movimiento en el largo plazo: riesgos y recomendaciones.
 
+**Keywords**
+
+Analiza la oferta laboral, y extrae 10 hábilidades/keywords clave, 5 responsabilidades centrales, 3 señales de seniority. No inventar nada, solo se deben extraer de la oferta. De acuerdo a la lista de keywords obtenida y considerando mi inventario de logros (experiencia laboral), marca entre 6 y 8 logros que son relevantes para el cargo.
+
+Importante: si falta evidencia para alguna habilidad, indicarlo y sugerir como cubrirlo con proyectos/experiencia real (sin inventar)
+
 ## ⚖️ Principios de evaluación (aplicar siempre)
 
 - Separar discurso vs. realidad (ej. "liderar estrategia" ≠ realmente liderar estrategia)
