@@ -46,10 +46,12 @@ Este proyecto nace de mi propio proceso de búsqueda laboral y de mi aprendizaje
    ├── Perfil/
    |  |── Criterios de Evaluación.md
    |  |── Curriculum.md
+   |  |── STAR.md
    └── Postulaciones/
       └── Registro Rápido.md
    99 Templates/
    ├── Plantilla Curriculum.md
+   ├── Plantilla STAR.md
    └── Plantilla Postulación Laboral.md
    Scripts
    └── sync-from-vault.sh
@@ -71,7 +73,8 @@ El Agente Analista necesita contexto real tuyo para evaluar bien — sin esto, n
 
 Además necesitas:
 - Tu CV o resumen de experiencia (Plantilla Curriculum.md incluida como base)
-- Opcional: notas de estrategia de carrera, formato STAR, perfil de LinkedIn
+- Tus logros profesionales en formato STAR (STAR.md) — evidencia cuantificable real que el Agente Analista usa para sustentar transferibilidad de habilidades y generar preguntas de entrevista con casos concretos, no genéricos
+- Opcional: notas de estrategia de carrera, perfil de LinkedIn
 
 Nada de esto se incluye en este repositorio — es información personal que cada usuario debe crear por su cuenta. El .gitignore incluido está preparado para evitar que la subas accidentalmente si trabajas dentro de una copia local de este repo.
 

@@ -5,6 +5,16 @@ Todos los cambios notables de este proyecto se documentan en este archivo.
 El formato sigue [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/),
 y este proyecto intenta adherirse a [Versionado Semántico](https://semver.org/lang/es/).
 
+## [1.2.0] - 2026-07-22
+### Agregado
+- Integración de logros profesionales en formato STAR (STAR.md) como parte del contexto que el 🧠 Agente Analista lee desde Perfil/
+- SOUL.md: la dimensión "Transferibilidad de habilidades" ahora debe sustentarse con logros reales de STAR.md cuando exista uno relevante
+- SOUL.md: las preguntas de entrevista ahora deben anclarse a un logro STAR concreto cuando exista, en vez de preguntas genéricas
+- Plantilla Plantilla STAR.md en blanco para que otros usuarios completen sus propios logros
+### Cambiado
+- README.md: árbol de instalación actualizado con STAR.md dentro de Perfil/
+- README.md: STAR.md pasó de mención "opcional" ambigua a archivo explícito con su propósito documentado en "Configura tu perfil antes de usarlo"
+
 ## [1.1.1] - 2026-07-20
 - Se agrega al SOUL instrucciones para extraer keyworkds útiles en la postulación
 ### Cambiado

@@ -47,6 +47,7 @@ Antes de analizar cualquier oferta, obtener de `09 Gestión Laboral/Perfil`:
 - Perfil profesional del usuario (experiencia, rol actual, stack tecnológico)
 - Roles, industrias y tipo de empresa objetivo (declarados en Criterios de Evaluación)
 - Habilidades fuertes demostrables y propuesta de valor (declaradas en Criterios de Evaluación)
+- Logros profesionales concretos en formato STAR (STAR.md) — evidencia cuantificable real, no genérica
 - Intereses profesionales
 - Criterios de evaluación personalizados (pesos de FIT — ver sección siguiente)
 - Perfil de LinkedIn, si está disponible
@@ -120,7 +121,7 @@ Incluye siempre pensamiento crítico, en forma de preguntas:
 - Afinidad técnica: ¿puede aprovechar su background técnico + su rol actual?
 - Alineación con trayectoria: ¿el rol, la industria y el tipo de empresa coinciden con los Roles/Industrias/Tipo de Empresa Objetivo declarados en Criterios de Evaluación? Si no coinciden, ¿lo acerca igualmente a su objetivo o lo aleja?
 - Potencial de crecimiento: ¿acelera su carrera? ¿aprenderá algo que hoy no tiene? ¿lo posiciona mejor en el mercado?
-- Transferibilidad de habilidades: ¿puede convertir sus Habilidades Fuertes declaradas en ventaja concreta para este rol específico?
+- Transferibilidad de habilidades: ¿puede convertir sus Habilidades Fuertes declaradas en ventaja concreta para este rol específico? Sustenta con logros reales de STAR.md cuando exista uno relevante — no afirmes transferibilidad en abstracto si hay evidencia concreta disponible
 - Probabilidad de ser seleccionado: evaluación realista, no optimista
 
 Cada dimensión con nota (1–7) + justificación breve, basada en evidencia del aviso y en los criterios de evaluación del usuario.
@@ -150,7 +151,7 @@ Incluye qué significa realmente ese puntaje, y si representa crecimiento, movim
 
 **Preguntas clave para la entrevista** 
 
-Máximo 5. Deben servir para revelar la verdad del rol, detectar problemas ocultos, y validar las hipótesis del análisis. Incluye al menos una pregunta que ponga a prueba si el rol realmente permitiría ejercer la Propuesta de Valor declarada por el usuario en Criterios de Evaluación — no solo si el usuario encaja en el rol, sino si el rol le permite entregar lo que él sabe que aporta.
+Máximo 5. Deben servir para revelar la verdad del rol, detectar problemas ocultos, y validar las hipótesis del análisis. Incluye al menos una pregunta que ponga a prueba si el rol realmente permitiría ejercer la Propuesta de Valor declarada por el usuario en Criterios de Evaluación — no solo si el usuario encaja en el rol, sino si el rol le permite entregar lo que él sabe que aporta. Cuando exista un logro relevante en STAR.md, formula al menos una pregunta que invite al usuario a traerlo a la conversación con evidencia real, en vez de una pregunta genérica de "cuénteme sobre una vez que...".
 
 **Estimación de mercado (Chile/LATAM)** 
 
